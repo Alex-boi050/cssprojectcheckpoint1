@@ -1,0 +1,262 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+   
+    input, textarea{
+        width: 100%;
+    }
+    .header{
+        background-color: rgb(175, 173, 173);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-j{
+        background-color: rgb(255, 0, 0);
+        padding: 10px;
+    width: 40px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 2px black;
+    }
+    .header-login{
+        cursor: pointer;
+        background-color: rgb(255, 0, 0);
+        padding: 5px;
+        display: flex;
+        font-size: 12px;
+        border-radius: 5px;
+        gap: 5px;
+    }
+    .header-login:hover{
+        box-shadow: 0 0 5px black;
+        transform: translate(4px) scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+    .father-div{
+        display: flex;
+        align-items: start;
+        width: 100%;
+        padding: 0 40px;
+        margin-top: 40px;
+        justify-content: space-between;
+       
+    }
+    .parent-div{
+        flex-basis: 70%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(4,1fr);
+        padding: 10px;
+        gap: 20px;
+    }
+    .parent-container-div{
+        flex-basis: 28%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child-div{
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(220, 213, 213);
+        box-shadow: 0.1px 0.5px 8px rgba(0, 0, 0, 0.3);
+       
+    }
+    .child-div:hover{
+        transform: translateY(-6px);
+        transition: all 0.5s ease-in-out;
+    }
+    .card-image-container{
+        position: relative;
+        width: 100%;
+        height: 140px;
+    }
+    .grid-header{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: whitesmoke;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .image{
+        height: auto;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .grid-body{
+         padding: 10px;
+         
+    }
+    .grid-header p{
+        font-size: 8px;
+        color: wheat;
+    }
+   
+    .grid-body h3{
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .grid-body-p{
+        color: gray;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .p{
+        color: gray;
+        font-size: 12px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    #like{
+        margin-top: 15px;
+    }
+    #like-icon1{
+        color: blue;
+    }
+    #like-icon2{
+        color: blue;
+    }
+    .button{
+        cursor: pointer;
+        background-color: blue;
+        padding: 4px;
+        border-radius: 5px;
+        color: white;
+        gap: 20px;
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .search-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+    }
+    .search-container input, .search-container button{
+        padding: 10px 0;
+    }
+    .search-container textarea{
+        height: 100px;
+    }
+    .button:hover{
+        background-color: rgb(22, 22, 166);
+        transition: all 0.3s ease-in-out;
+    }
+    #container2 h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(80, 79, 79);
+    }
+     ::placeholder{
+        padding: 10px;
+    }
+    .choose-button{
+        gap: 10px;
+        /* background-color: aquamarine; */
+       
+        justify-content: left;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        
+    }
+    #button1{
+        font-size: 12px;
+        justify-content: center;
+        background-color: rgb(235, 74, 101);
+    }
+    #button1:hover{
+        background-color: rgb(182, 20, 47);
+        transition: all 0.3s ease-in-out;
+    }
+    #nav-btn-container{
+    background-color: white;
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 234, 234);
+    gap: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+  .nav-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 33px;
+   
+  }
+  .nav-btn:hover{
+    background-color: rgb(212, 20, 20);
+    color: white;
+    transition: all 0.4s ease-in-out;
+  }
+  #next-icon{
+    font-size: 10px;
+    height: 30px;
+     padding: 8px;
+    width: 35px;
+    height: 33px;
+  }
+  #active{
+    background-color: rgb(236, 129, 129);
+    color: black;
+  }
+  #active:hover{
+     background-color: rgb(212, 20, 20);
+    color: white;
+    transition: all 0.4s ease-in-out;
+  }
+  @media screen and (max-width: 1200px) {
+     .parent-div{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+  }
+  @media screen  and (max-width: 880px) {
+    .parent-div{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
+    }
+  }
